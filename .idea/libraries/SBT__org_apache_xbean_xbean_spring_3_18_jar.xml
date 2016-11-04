@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.xbean:xbean-spring:3.18:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xbean/xbean-spring/bundles/xbean-spring-3.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.xbean/xbean-spring/srcs/xbean-spring-3.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

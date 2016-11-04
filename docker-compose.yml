@@ -1,0 +1,15 @@
+# https://hub.docker.com/r/zhilvis/activemq/~/dockerfile/
+activemq:
+  image: zhilvis/activemq:5.9.0
+  environment:
+    # timezone
+    - "TZ=Europe/Amsterdam"
+  ports:
+    - "1883:1883"   # Dont know what this is for yet, it's exposed by the image.
+    - "5672:5672"   # Dont know what this is for yet, it's exposed by the image.
+    - "8101:8101"   # ssh port
+    - "8102:8102"   # ssh port
+    - "8161:8161"   # hawtio port: http://localhost:8161/hawtio/index.html#/login
+    - "44444:44444" # jmx port
+    - "1099:1099"   # rmi port
+    - "61616:61616" # activemq port

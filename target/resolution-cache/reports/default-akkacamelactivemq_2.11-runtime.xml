@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="akkacamelactivemq_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160928172217"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091643" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/2.4.10/akka-http-testkit_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-testkit_2.11" type="jar" ext="jar" status="no" details="" size="126886" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/jars/akka-http-testkit_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/2.4.10/akka-http-testkit_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091648" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3342" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-spray-json-experimental_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json-experimental_2.11/2.4.10/akka-http-spray-json-experimental_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http-spray-json-experimental_2.11" type="jar" ext="jar" status="no" details="" size="24877" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-spray-json-experimental_2.11/jars/akka-http-spray-json-experimental_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json-experimental_2.11/2.4.10/akka-http-spray-json-experimental_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-experimental_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091553" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3170" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-experimental_2.11/2.4.10/akka-http-experimental_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-http-experimental_2.11" type="jar" ext="jar" status="no" details="" size="2701852" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-experimental_2.11/2.4.10/akka-http-experimental_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091546" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3456" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/2.4.10/akka-http-core_2.11-2.4.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-experimental_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3409821" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/2.4.10/akka-http-core_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506160115" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2957" time="0" location="/Users/bjornschuller/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="bundle" ext="jar" status="no" details="" size="286389" time="0" location="/Users/bjornschuller/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3218" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.10/akka-stream-testkit_2.11-2.4.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.11" type="jar" ext="jar" status="no" details="" size="102126" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/jars/akka-stream-testkit_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.10/akka-stream-testkit_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/2.4.10/akka-parsing_2.11-2.4.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="975994" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/2.4.10/akka-parsing_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.10/akka-stream_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4264342" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.10/akka-stream_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429181400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2397" time="0" location="/Users/bjornschuller/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="/Users/bjornschuller/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-akka_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160408143502" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3000" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="default, compile, runtime, master" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="ssl-config-akka_2.11" type="bundle" ext="jar" status="no" details="" size="25715" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.11">
+			<revision name="0.2.1" status="release" pubdate="20160408143507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/ssl-config-core_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-akka_2.11" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="0.2.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.11" type="bundle" ext="jar" status="no" details="" size="365288" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430160747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="423753" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-camel_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091414" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3934" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-camel_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.11/2.4.10/akka-camel_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-camel_2.11" type="jar" ext="jar" status="no" details="" size="213528" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-camel_2.11/jars/akka-camel_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.11/2.4.10/akka-camel_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091401" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3076" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.10/akka-slf4j_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-camel_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="18201" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.10/akka-slf4j_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.3" status="release" pubdate="20151123133019" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<metadata-artifact status="no" details="" size="9798" time="0" location="/Users/bjornschuller/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.3.xml" searched="false" origin-is-local="true" origin-location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-classic/1.1.3/ivys/ivy.xml"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="280928" time="0" location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar">
+						<origin-location is-local="true" location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.3" status="release" pubdate="20151123133007" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<metadata-artifact status="no" details="" size="7451" time="0" location="/Users/bjornschuller/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.3.xml" searched="false" origin-is-local="true" origin-location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-core/1.1.3/ivys/ivy.xml"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.1.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="455041" time="0" location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar">
+						<origin-location is-local="true" location="/Users/bjornschuller/Development/ACTIVATOR-dist-1.3.7/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.16" status="release" pubdate="20160211212603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/bjornschuller/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.4.10"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.1.3"/>
+				<caller organisation="org.apache.activemq" name="activemq-client" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-jms-pool" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-camel" conf="default, compile, runtime, master" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.camel" name="camel-core" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.6.6" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="40509" time="0" location="/Users/bjornschuller/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.13" status="release" pubdate="20151110211419" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="5289" time="0" location="/Users/bjornschuller/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom"/>
+				<evicted-by rev="1.7.16"/>
+				<caller organisation="org.apache.activemq" name="activemq-client" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-jms-pool" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-camel" conf="default, compile, runtime, master" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="5.14.0"/>
+				<caller organisation="org.apache.camel" name="camel-core" conf="compile, runtime" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.6.6" callerrev="2.16.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.16"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091208" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3419" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.10/akka-testkit_2.11-2.4.10.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.11" type="jar" ext="jar" status="no" details="" size="277364" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.10/akka-testkit_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.10" status="release" pubdate="20160907091020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2831" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.10/akka-actor_2.11-2.4.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-camel_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3252908" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.10/akka-actor_2.11-2.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831130233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2910" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="bundle" ext="jar" status="no" details="" size="582358" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508174611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2749" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="277782" time="0" location="/Users/bjornschuller/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.activemq" name="activemq-camel">
+			<revision name="5.14.0" status="release" pubdate="20160802151912" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="51713" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-camel/ivy-5.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-camel/5.14.0/activemq-camel-5.14.0.pom"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="activemq-camel" type="bundle" ext="jar" status="no" details="" size="76358" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-camel/bundles/activemq-camel-5.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-camel/5.14.0/activemq-camel-5.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.activemq" name="activemq-spring">
+			<revision name="5.14.0" status="release" pubdate="20160802151744" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="42066" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-spring/ivy-5.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-spring/5.14.0/activemq-spring-5.14.0.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-camel" conf="default, compile, runtime, master" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="activemq-spring" type="jar" ext="jar" status="no" details="" size="170301" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-spring/jars/activemq-spring-5.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-spring/5.14.0/activemq-spring-5.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.activemq" name="activemq-pool">
+			<revision name="5.14.0" status="release" pubdate="20160802151721" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<metadata-artifact status="no" details="" size="38763" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-pool/ivy-5.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-pool/5.14.0/activemq-pool-5.14.0.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-camel" conf="default, compile, runtime, master" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="activemq-pool" type="bundle" ext="jar" status="no" details="" size="20960" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-pool/bundles/activemq-pool-5.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-pool/5.14.0/activemq-pool-5.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.activemq" name="activemq-client">
+			<revision name="5.14.0" status="release" pubdate="20160802151508" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<metadata-artifact status="no" details="" size="49085" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-client/ivy-5.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-client/5.14.0/activemq-client-5.14.0.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="activemq-client" type="bundle" ext="jar" status="no" details="" size="1421493" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-client/bundles/activemq-client-5.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-client/5.14.0/activemq-client-5.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-j2ee-management_1.1_spec">
+			<revision name="1.0.1" status="release" pubdate="20080207022656" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<metadata-artifact status="no" details="" size="7216" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-client" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="geronimo-j2ee-management_1.1_spec" type="jar" ext="jar" status="no" details="" size="20220" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/jars/geronimo-j2ee-management_1.1_spec-1.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.fusesource.hawtbuf" name="hawtbuf">
+			<revision name="1.11" status="release" pubdate="20140620173246" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<metadata-artifact status="no" details="" size="4240" time="0" location="/Users/bjornschuller/.ivy2/cache/org.fusesource.hawtbuf/hawtbuf/ivy-1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-client" conf="compile, runtime" rev="1.11" rev-constraint-default="1.11" rev-constraint-dynamic="1.11" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="hawtbuf" type="bundle" ext="jar" status="no" details="" size="50155" time="0" location="/Users/bjornschuller/.ivy2/cache/org.fusesource.hawtbuf/hawtbuf/bundles/hawtbuf-1.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.activemq" name="activemq-jms-pool">
+			<revision name="5.14.0" status="release" pubdate="20160802151715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<metadata-artifact status="no" details="" size="38789" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-jms-pool/ivy-5.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-jms-pool/5.14.0/activemq-jms-pool-5.14.0.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="5.14.0" rev-constraint-default="5.14.0" rev-constraint-dynamic="5.14.0" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="activemq-jms-pool" type="bundle" ext="jar" status="no" details="" size="52703" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.activemq/activemq-jms-pool/bundles/activemq-jms-pool-5.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/activemq/activemq-jms-pool/5.14.0/activemq-jms-pool-5.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-jta_1.0.1B_spec">
+			<revision name="1.0.1" status="release" pubdate="20080831134617" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<metadata-artifact status="no" details="" size="10734" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.0.1B_spec/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-jms-pool" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="geronimo-jta_1.0.1B_spec" type="jar" ext="jar" status="no" details="" size="14637" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.0.1B_spec/jars/geronimo-jta_1.0.1B_spec-1.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.camel" name="camel-jms">
+			<revision name="2.16.3" status="release" pubdate="20160403161050" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="150124" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-jms/ivy-2.16.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/camel/camel-jms/2.16.3/camel-jms-2.16.3.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-camel" conf="default, compile, runtime, master" rev="2.16.3" rev-constraint-default="2.16.3" rev-constraint-dynamic="2.16.3" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="camel-jms" type="bundle" ext="jar" status="no" details="" size="172159" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-jms/bundles/camel-jms-2.16.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/camel/camel-jms/2.16.3/camel-jms-2.16.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xbean" name="xbean-spring">
+			<revision name="3.18" status="release" pubdate="20140520225113" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<metadata-artifact status="no" details="" size="13783" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.xbean/xbean-spring/ivy-3.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/3.18/xbean-spring-3.18.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="3.18" rev-constraint-default="3.18" rev-constraint-dynamic="3.18" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="xbean-spring" type="bundle" ext="jar" status="no" details="" size="131202" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.xbean/xbean-spring/bundles/xbean-spring-3.18.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/3.18/xbean-spring-3.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.4.2" status="release" pubdate="20150729042011" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-pool/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="10422" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.commons/commons-pool2/ivy-2.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-jms-pool" conf="compile, runtime" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-pool" conf="compile, runtime" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-spring" conf="compile, runtime" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="commons-pool2" type="jar" ext="jar" status="no" details="" size="111969" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.commons/commons-pool2/jars/commons-pool2-2.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-jms_1.1_spec">
+			<revision name="1.1.1" status="release" pubdate="20080207022655" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<metadata-artifact status="no" details="" size="7233" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom"/>
+				<caller organisation="org.apache.activemq" name="activemq-client" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="5.14.0"/>
+				<caller organisation="org.apache.activemq" name="activemq-jms-pool" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="5.14.0"/>
+				<artifacts>
+					<artifact name="geronimo-jms_1.1_spec" type="jar" ext="jar" status="no" details="" size="32359" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/jars/geronimo-jms_1.1_spec-1.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jms">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4186" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-jms/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jms/4.1.9.RELEASE/spring-jms-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="spring-jms" type="jar" ext="jar" status="no" details="" size="269749" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-jms/jars/spring-jms-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-jms/4.1.9.RELEASE/spring-jms-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-messaging">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3892" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-messaging/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-messaging/4.1.9.RELEASE/spring-messaging-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-messaging" type="jar" ext="jar" status="no" details="" size="286444" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-messaging/jars/spring-messaging-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-messaging/4.1.9.RELEASE/spring-messaging-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.camel" name="camel-spring">
+			<revision name="2.16.3" status="release" pubdate="20160403155048" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="115958" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-spring/ivy-2.16.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/camel-spring-2.16.3.pom"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="2.16.3" rev-constraint-default="2.16.3" rev-constraint-dynamic="2.16.3" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="camel-spring" type="bundle" ext="jar" status="no" details="" size="315766" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-spring/bundles/camel-spring-2.16.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/camel-spring-2.16.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-tx">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100707" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3652" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-tx/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="spring-tx" type="jar" ext="jar" status="no" details="" size="252921" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-tx/jars/spring-tx-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100711" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4629" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-context/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.springframework" name="spring-messaging" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="1026909" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100707" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2629" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-expression/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="259078" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100705" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3251" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-aop/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="359408" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100704" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-beans/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-tx" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.springframework" name="spring-messaging" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="712428" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20080831134510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2291" time="0" location="/Users/bjornschuller/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="4.1.9.RELEASE"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="/Users/bjornschuller/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="4.1.9.RELEASE" status="release" pubdate="20151217100702" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-core/ivy-4.1.9.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-jms" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-tx" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="2.16.3"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-messaging" conf="compile, runtime" rev="4.1.9.RELEASE" rev-constraint-default="4.1.9.RELEASE" rev-constraint-dynamic="4.1.9.RELEASE" callerrev="4.1.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="1009602" time="0" location="/Users/bjornschuller/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.9.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705201228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="11382" time="0" location="/Users/bjornschuller/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.1.9.RELEASE"/>
+				<caller organisation="org.apache.xbean" name="xbean-spring" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.0.3" callerrev="3.18"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="/Users/bjornschuller/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.camel" name="camel-core">
+			<revision name="2.16.3" status="release" pubdate="20160403154537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="152271" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-core/ivy-2.16.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.16.3/camel-core-2.16.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-camel_2.11" conf="default, compile, runtime, master" rev="2.13.4" rev-constraint-default="2.13.4" rev-constraint-dynamic="2.13.4" callerrev="2.4.10"/>
+				<caller organisation="org.apache.camel" name="camel-jms" conf="compile, runtime" rev="2.16.3" rev-constraint-default="2.16.3" rev-constraint-dynamic="2.16.3" callerrev="2.16.3"/>
+				<caller organisation="org.apache.camel" name="camel-spring" conf="compile, runtime" rev="2.16.3" rev-constraint-default="2.16.3" rev-constraint-dynamic="2.16.3" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="camel-core" type="jar" ext="jar" status="no" details="" size="3403034" time="0" location="/Users/bjornschuller/.ivy2/cache/org.apache.camel/camel-core/jars/camel-core-2.16.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.16.3/camel-core-2.16.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.13.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.16.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-camel_2.11" conf="default, compile, runtime, master" rev="2.13.4" rev-constraint-default="2.13.4" rev-constraint-dynamic="2.13.4" callerrev="2.4.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl">
+			<revision name="2.2.11" status="release" pubdate="20141010131157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="14321" time="0" location="/Users/bjornschuller/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.pom"/>
+				<caller organisation="org.apache.camel" name="camel-core" conf="compile, runtime" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="1047863" time="0" location="/Users/bjornschuller/.ivy2/cache/com.sun.xml.bind/jaxb-impl/jars/jaxb-impl-2.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-core">
+			<revision name="2.2.11" status="release" pubdate="20141010130950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="14465" time="0" location="/Users/bjornschuller/.ivy2/cache/com.sun.xml.bind/jaxb-core/ivy-2.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.pom"/>
+				<caller organisation="org.apache.camel" name="camel-core" conf="compile, runtime" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="2.16.3"/>
+				<artifacts>
+					<artifact name="jaxb-core" type="jar" ext="jar" status="no" details="" size="252336" time="0" location="/Users/bjornschuller/.ivy2/cache/com.sun.xml.bind/jaxb-core/jars/jaxb-core-2.2.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304152633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-camel_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-experimental_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe" name="ssl-config-akka_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.7.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="io.spray" name="spray-json_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.2"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.1"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4.10"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/bjornschuller/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.8"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
+				<caller organisation="io.spray" name="spray-json_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<evicted-by rev="2.11.8"/>
+				<caller organisation="default" name="akkacamelactivemq_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.8" callerrev="1.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.7.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

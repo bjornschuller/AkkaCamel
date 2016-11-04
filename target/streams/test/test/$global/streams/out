@@ -1,0 +1,27 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 3 initial tasks for 3 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ReverseThisStringProducerConsumerTest, sbt.ForkMain$SubclassFingerscan@5977536a, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mReverseThisStringProducerConsumerTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mFeature: Two-way communication tests[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: 1. The String Producers sends a message of type String which should be consumed by the SimpleConsumer[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: 2. The SimpleProducer sends a number of type Int which should result into a Failure Response from the consumer[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: 3.Using the ask pattern since we are expecting an answer back[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(SupervisedConsumptionTest, sbt.ForkMain$SubclassFingerscan@3fcb9679, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mSupervisedConsumptionTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mFeature: One-way communication with autoAck false[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: 1.The SupervisedProducer sends a message that  should  be consumed by the SupervisedConsumer.[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: 2.The SupervisedProducer sends a message that  should  be consumed by the SupervisedConsumer.[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(TestSpec, sbt.ForkMain$SubclassFingerscan@3dc7e84e, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mTestSpec:[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 10 seconds, 470 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	TestSpec[0m
+[0m[[0mdebug[0m] [0m	SupervisedConsumptionTest[0m
+[0m[[0mdebug[0m] [0m	ReverseThisStringProducerConsumerTest[0m
