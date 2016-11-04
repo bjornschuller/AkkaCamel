@@ -121,66 +121,37 @@ Regardless of which type of SupervisorStrategy you choose for your actor, you wi
 ##### Fault-tolerance Consumers
 Message processing inside receive may throw exceptions which usually requires a failure response to Camel (i.e. to the consumer endpoint). This is done with a Failure message that contains the failure reason (an instance of Throwable). Instead of catching and handling the exception inside receive, consumer actors should be part of supervisor hierarchies and send failure responses from within restart callback methods. 
 
-####### Fault-tolerance of the consumer depends on its life cycle (PERMANENT OR TEMPORARY)
+###### Fault-tolerance of the consumer depends on its life cycle (PERMANENT OR TEMPORARY)
 If the lifecycle of an Actor Consumer is configured to be **PERMANENT**, a supervisor will restart the consumer when failure with a call to preRestart. If the sender replies with a FAILURE message in the preStart method this will causes the endpoint to redeliver the content of the consumed message and the Consumer Actor can try processing again. In contrast, when you reply with an ACK then the message will be deleted from the endpoint. 
 
 If the lifecycle of an Actor Consumer is configured to be **TEMPORARY**, a supervisor will shut down the consumer upon failure with a call to postStop. Within postStop you can reply with an Ack, to delete the message from the endpoint. Or you can reply with a Failure, so that it retries processing again based on your redelivery policy. 
 
-===== KLAD
-When using autoAck false you can positively or negatively acknowledge the
-receipt of the Camel message, but that is not the same thing as the
-acknowledgement of the JMS message towards the broker.
 
-You can configure how the Camel ActiveMQ component should behave when
-picking JMS messages off the queue using options like
-acknowledgementModeName,see http://camel.apache.org/activemq.html and
-http://camel.apache.org/jms. Just append options to the endointUri defined
-in your consumer actor.
+#####**sources:**
 
-example: https://gist.github.com/ketankhairnar/831229
-http://danielwestheide.com/blog/2013/03/20/the-neophytes-guide-to-scala-part-15-dealing-with-failure-in-actor-systems.html
-https://danielasfregola.com/2015/03/09/how-to-supervise-akka-actors/
-https://gist.github.com/krasserm/835076
-
-source:
 http://krasserm.blogspot.nl/2011/02/akka-consumer-actors-new-features-and.html
+
 http://cjwebb.github.io/blog/2013/09/01/akka-camel-and-activemq/
+
 http://doc.akka.io/docs/akka/current/scala/camel.html
+
 http://krasserm.blogspot.nl/2010/04/akka-features-for-application.html
+
 http://activemq.apache.org/configuring-transports.html
+
 https://github.com/OpenNetworkingFoundation/BOULDER-Intent-NBI/blob/master/docs/modules/camel.rst
+
 https://github.com/RayRoestenburg/akka-camel-presentation/blob/master/src/test/scala/org/xebia/ConsumerTest.scala
 
+https://myadventuresincoding.wordpress.com/category/activemq/
+
+https://gist.github.com/ketankhairnar/831229
+
+http://danielwestheide.com/blog/2013/03/20/the-neophytes-guide-to-scala-part-15-dealing-with-failure-in-actor-systems.html
+
+https://danielasfregola.com/2015/03/09/how-to-supervise-akka-actors/
+
+https://gist.github.com/krasserm/835076
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======KLAD======
-
-####Synchronous Producer
-The main difference between an asynchronous and synchronous producer is that the synchronous producer has two queues: a send queue and a reply queue. The send queue is the queue on which the producer will send a message to the consumer. The reply queue is the queue on which the producer will listen for a reply from the consumer. The producer when it sends a message sets two important pieces of information on the message:
-
-JMSCorrelationID: This is the uniqueID used by the producer to indentify the message
-JMSReplyTo: This tells the consumer on which queue to send the message reply
-
-The producer then creates a “ReplyConsumer” on the reply queue and listens for a reply from the consumer that contains that “JMSCorrelationID”. When a message with that ID appears on the reply queue, the ReplyConsumer will receive that message and our synchronous message round trip has been completed!
-
-source: https://myadventuresincoding.wordpress.com/category/activemq/
-
-======KLAD=====
