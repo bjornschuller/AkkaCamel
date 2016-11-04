@@ -1,7 +1,0 @@
-#Successful Tests
-#Wed Oct 19 20:48:02 CEST 2016
-TestSpec=1476902684792
-ActiveMqProducerConsumerTest=1476285042822
-ReverseThisStringProducerConsumerTest=1476902881678
-SupervisedConsumptionTest=1476902684778
-StringProducerConsumerTest=1476295772775
